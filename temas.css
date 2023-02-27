@@ -1,22 +1,23 @@
 .contenedor{
     width: 100%;
     height: 1200px;
-    background-color: powderblue;
+    background-color: black;
 
 }
 .encabezado{
     width: 100%;
     height: 150px;
-    background-color: skyblue;
+    background-color: rgb(0, 0, 0);
     font-size: 35px;
-    font-family: monospace;
-    color: darkcyan;
+    font-family: initial;
+    color: rgb(255, 255, 255);
     text-align: center;
+    border: 3px solid rgb(143, 0, 0);
 }
 .menu{
     width: 100%;
     height: 50px;
-    background-color: thistle;
+    background-color: rgb(79, 0, 0);
 }
 .contenedorp2{
     display: flex;
@@ -27,20 +28,25 @@
 .izquierda{
     width: 20%;
     height: 1000px;
-    background-color: violet;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(145, 0, 0);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
 .centro{
     
     width: 60%;
     height: 1000px;
-    background-color: rgb(54, 11, 245);
+    background-color: rgb(0, 0, 0);
     font-size: 25px;
-    font-family: serif;
-    color: yellow;
+    font-family: initial;
+    color: rgb(255, 255, 255);
     text-align: justify;
+    border: 3px solid rgb(143, 0, 0)
 }
 .derecha{
     width: 20%;
     height: 1000px;
-    background-color: yellowgreen;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(143, 0, 0); 
 }
